@@ -206,7 +206,7 @@ align-items: center;
 }
 .team-title {
   text-align: center;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -282,7 +282,7 @@ footer {
 }
 
 .button-portfolio {
-  font-family: 'Roboto', sans-serif;
+padding: 6px 22px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -306,13 +306,9 @@ footer {
   display: flex;
   justify-content: center;
   gap:8px;
-  padding: 6px 22px;
   list-style-type: none;
 }
-.container-card-portfolio {
-display:flex;
-width: 1200px;
-}
+
 .list-portfolio-box {
   display: flex;
   list-style-type: none;
@@ -324,7 +320,7 @@ width: 1200px;
 .porfolio-box {
   box-sizing: border-box;
   background: #ffffff;
-  border: 1px solid #eeeeee;
+  
 
 }
 .portfolio-title {
@@ -342,5 +338,6 @@ width: 1200px;
   color: var(--color-text);
 }
 .portfolio-text{
+  border: 1px solid #eeeeee;
   padding: 20px 24px;
 }
