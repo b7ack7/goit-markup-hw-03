@@ -44,10 +44,10 @@ section{
   margin: 0 auto;
 }
 header{
+  padding: 25px 0;
   background-color: #fff;
 }
 .header-container {
-  padding: 25px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -112,6 +112,7 @@ align-items: center;
   color: #2196f3;
 }
 .main-section-button {
+  padding: 200px 0 ;
   background-color: var(--color-brand);
 }
 .container-main-button{
@@ -157,6 +158,7 @@ align-items: center;
   list-style-type: none;
 }
 .main-text-title {
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -212,8 +214,8 @@ align-items: center;
   color: var(--color-primary);
 }
 .list-team {
+  margin-bottom: 10px;
   text-align: center;
-  padding: 10px 0 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -222,7 +224,6 @@ align-items: center;
 }
 .list-team-text {
   text-align: center;
-  padding-bottom: 30px;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -233,12 +234,14 @@ align-items: center;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+.team-text{
+  padding: 30px 0;
+}
 footer {
+  padding: 60px 0;
   background-color: var(--color-brand);
 }
-.container-footer{
-    padding: 60px 0;
-}
+
 .logo-link-footer {
   padding-top: 60px;
 
@@ -254,7 +257,7 @@ footer {
   color: #2196f3;
 }
 .link-address {
-  padding-top: 20px;
+  margin: 20px 0 9px ;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -264,11 +267,14 @@ footer {
   list-style-type: none;
 }
 .contact-link-footer {
-  padding: 9px 0;
+  margin: 9px 0;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+.header-portfolio{
+  border: 1px solid #ECECEC;
 }
 .container-section-portfolio{
   text-align: center;
@@ -300,6 +306,7 @@ footer {
   display: flex;
   justify-content: center;
   gap:8px;
+  padding: 6px 22px;
   list-style-type: none;
 }
 .container-card-portfolio {
@@ -321,17 +328,19 @@ width: 1200px;
 
 }
 .portfolio-title {
-  padding: 20px 24px 4px;
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--color-primary);
 }
-.portfolio-text {
-  padding: 4px 24px 20px;
+.portfolio-paragraph {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--color-text);
+}
+.portfolio-text{
+  padding: 20px 24px;
 }
