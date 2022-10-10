@@ -12,15 +12,20 @@ h4,
 h5,
 h6,
 p,
-ul{
+ul {
   margin: 0;
-    padding: 0;
+  padding: 0;
 }
 
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 body {
@@ -29,21 +34,18 @@ body {
   font-size: 16px;
   font-weight: 400;
   background-color: #fff;
-
-
 }
-section{
+section {
   padding: 94px 0;
-
 }
 
-.container{
+.container {
   width: 100%;
   max-width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
 }
-header{
+header {
   padding: 25px 0;
   background-color: #fff;
 }
@@ -52,10 +54,10 @@ header{
   align-items: center;
   justify-content: space-between;
 }
-.header-nav{
-display: flex;
-flex-grow: 1;
-align-items: center;
+.header-nav {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
 }
 
 .logo-link {
@@ -71,7 +73,7 @@ align-items: center;
 }
 .nav-links {
   display: flex;
-  gap: 50px; 
+  gap: 50px;
   margin-left: 93px;
 
   font-weight: 500;
@@ -112,10 +114,10 @@ align-items: center;
   color: #2196f3;
 }
 .main-section-button {
-  padding: 200px 0 ;
+  padding: 200px 0;
   background-color: var(--color-brand);
 }
-.container-main-button{
+.container-main-button {
   text-align: center;
 }
 .main-text-button {
@@ -148,10 +150,10 @@ align-items: center;
   background-color: #fff;
   padding-bottom: initial;
 }
-.main-text{
+.main-text {
   display: flex;
-  gap:30px;
-  flex-basis: calc((100%-90px)/4);
+  gap: 30px;
+  flex-basis: calc((100%-90px) / 4);
 }
 
 .main-text {
@@ -174,16 +176,16 @@ align-items: center;
   color: var(--color-text);
   text-decoration: none;
 }
- 
+
 .main-section-whatwedoing {
   display: flex;
   gap: 30px;
-  flex-basis: calc((100%-90px)/3);
+  flex-basis: calc((100%-90px) / 3);
   justify-content: center;
   list-style-type: none;
   background-color: #fff;
 }
-.container-main-whatwedoings{
+.container-main-whatwedoings {
   text-align: center;
 }
 .text-whatwedoing {
@@ -200,7 +202,7 @@ align-items: center;
 .list-teams-block {
   display: flex;
   gap: 30px;
-  flex-basis: calc((100%-90px)/4);
+  flex-basis: calc((100%-90px) / 4);
   justify-content: center;
   list-style-type: none;
 }
@@ -231,10 +233,11 @@ align-items: center;
 }
 .list-teams {
   background-color: #fff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.team-text{
+.team-text {
   padding: 30px 0;
 }
 footer {
@@ -257,13 +260,14 @@ footer {
   color: #2196f3;
 }
 .link-address {
-  margin: 20px 0 9px ;
+  margin-bottom: 9px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #fff;
 }
 .contact-links-footer {
+  margin-top: 20px;
   list-style-type: none;
 }
 .contact-link-footer {
@@ -273,16 +277,15 @@ footer {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.header-portfolio{
-  border: 1px solid #ECECEC;
+.header-portfolio {
+  border: 1px solid #ececec;
 }
-.container-section-portfolio{
+.container-section-portfolio {
   text-align: center;
-
 }
 
 .button-portfolio {
-padding: 6px 22px;
+  padding: 6px 22px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -290,7 +293,7 @@ padding: 6px 22px;
   color: var(--color-primary);
   background: var(--color-backgorund);
   border-radius: 4px;
-  border:none;
+  border: none;
 }
 .button-portfolio:focus {
   background-color: #2196f3;
@@ -301,11 +304,10 @@ padding: 6px 22px;
   color: #fff;
 }
 
-
 .list-buttons-portfolio {
   display: flex;
   justify-content: center;
-  gap:8px;
+  gap: 8px;
   list-style-type: none;
 }
 
@@ -315,13 +317,10 @@ padding: 6px 22px;
   margin-top: 50px;
   gap: 30px;
   flex-wrap: wrap;
-
 }
 .porfolio-box {
   box-sizing: border-box;
   background: #ffffff;
-  
-
 }
 .portfolio-title {
   margin-bottom: 4px;
@@ -337,7 +336,9 @@ padding: 6px 22px;
   letter-spacing: 0.03em;
   color: var(--color-text);
 }
-.portfolio-text{
-  border: 1px solid #eeeeee;
+.portfolio-text {
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
   padding: 20px 24px;
 }
